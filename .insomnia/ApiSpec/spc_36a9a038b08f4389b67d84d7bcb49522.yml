@@ -1,11 +1,11 @@
 _id: spc_36a9a038b08f4389b67d84d7bcb49522
 type: ApiSpec
 parentId: wrk_0ab6ee3cf3b64f7c8ad0cd4b5bf65a52
-modified: 1679161393986
+modified: 1679827409038
 created: 1679160354128
 fileName: my-spec.yaml
 contents: >-
-  openapi: 3.0.3
+  openapi: 3.0.0
 
   info:
     title: Swagger Petstore - OpenAPI 3.0

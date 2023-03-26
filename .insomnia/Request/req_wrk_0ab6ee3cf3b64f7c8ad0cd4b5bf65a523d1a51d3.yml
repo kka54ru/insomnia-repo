@@ -1,18 +1,23 @@
 _id: req_wrk_0ab6ee3cf3b64f7c8ad0cd4b5bf65a523d1a51d3
 type: Request
 parentId: fld_wrk_0ab6ee3cf3b64f7c8ad0cd4b5bf65a521b034c38
-modified: 1679161391313
+modified: 1679721542493
 created: 1679161391313
-url: "{{ base_url }}/pet/{{ petId }}"
+url: "{{ base_url }}/pet/12"
 name: Find pet by ID
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_5e1b522c044349b6a8ec813124220a5f
+    name: ""
+    value: ""
+    description: ""
 headers:
   - name: api_key
     disabled: false
     value: "{{ apiKey }}"
+    id: pair_0d97ddb2c09c44b58429308f7d4e0bf3
 authentication: {}
 metaSortKey: -1679161391313
 isPrivate: false
